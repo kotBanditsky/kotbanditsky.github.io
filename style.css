@@ -16,7 +16,7 @@ footer {
   display: block;
   margin: 35px auto 20px;
   border-radius: 50%;
-  border: solid var(--color) 2px;
+  border: solid white 2px;
 }
 
 .userName {
@@ -27,7 +27,7 @@ footer {
   text-decoration: none;
   line-height: 1.25;
   display: block;
-  color: var(--color);
+  color: white;
 }
 
 .links {
@@ -44,16 +44,9 @@ footer {
   font-size: 1.2rem;
   font-weight: 500;
   border-radius: 5px;
-  border: dashed var(--color) 2px;
+  border: dashed white 2px;
   text-align: center;
   text-decoration: none;
-  color: var(--color);
+  color: white;
   word-wrap: break-word;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #202124;
-    --color: white;
-  }
 }
